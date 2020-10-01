@@ -1,0 +1,14 @@
+.getContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.getItem{
+    padding: 16px;
+    min-width: 50vw;
+}
+
+.getItem:hover{
+
+}

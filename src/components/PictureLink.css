@@ -1,0 +1,43 @@
+.PictureLink {
+    background-color: black;
+    color: white;
+    padding: 15rem 0 15rem 0;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.PictureLink:hover{
+    transform: translateY(-5px);
+}
+
+.PictureLink .BackgroundImage .text {
+    opacity: 0.7;
+}
+
+.PictureLink .BackgroundImage {
+    opacity: 0.7;
+}
+
+.PictureLink--Title {
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+.PictureLink--Subtitle {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.PictureLink .container {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@media (max-width: 600px) {
+    .PictureLink {
+        padding: 7rem 0;
+    }
+
+    .PictureLink:hover{
+        transform: none;
+    }
+}
