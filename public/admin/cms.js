@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "9b09e86b367f477ade3c";
+/******/ 	var hotCurrentHash = "0d7fe0c65a2c69b32161";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -31238,7 +31238,7 @@ function mitt(all                 ) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761573
+      // 1602285327831
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -77256,7 +77256,7 @@ exports.PhotoSwipeGallery = _PhotoSwipeGallery2.default;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282763885
+      // 1602285330019
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -96361,7 +96361,7 @@ netlify_cms_app__WEBPACK_IMPORTED_MODULE_1___default.a.registerPreviewTemplate('
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761556
+      // 1602285327816
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -96546,7 +96546,7 @@ Accordion.defaultProps = {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761568
+      // 1602285327820
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -96837,7 +96837,7 @@ var _default = function _default(_ref) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761543
+      // 1602285327801
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -97047,7 +97047,7 @@ var _default = Content;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761785
+      // 1602285328042
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -97495,7 +97495,7 @@ var _default = function _default() {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761571
+      // 1602285327829
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -97929,7 +97929,7 @@ var _default = Form;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761558
+      // 1602285327827
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -98177,7 +98177,7 @@ Gallery.propTypes = {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761768
+      // 1602285328028
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -98310,7 +98310,7 @@ var _default = function _default(_ref) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761800
+      // 1602285328061
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -98743,7 +98743,7 @@ var _default = function _default(_ref) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282764370
+      // 1602285330460
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -99101,7 +99101,7 @@ var Meta = /*#__PURE__*/function (_Component) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282762412
+      // 1602285328669
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -99520,7 +99520,7 @@ var Observer = /*#__PURE__*/function (_Component) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761551
+      // 1602285327806
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -99658,7 +99658,7 @@ var _default = PageHeader;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761548
+      // 1602285327813
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -99806,7 +99806,7 @@ var _default = PictureLink;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761563
+      // 1602285327811
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -99973,7 +99973,7 @@ var _default = Popup;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282762373
+      // 1602285328632
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100126,7 +100126,7 @@ var _default = PostCard;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761565
+      // 1602285327818
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100245,7 +100245,7 @@ var _default = PostCategoriesNav;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761560
+      // 1602285327825
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100429,7 +100429,7 @@ var _default = PostSection;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761553
+      // 1602285327823
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100696,7 +100696,7 @@ var _default = FbIcon;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282764362
+      // 1602285330447
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100714,7 +100714,7 @@ var _default = FbIcon;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761545
+      // 1602285327809
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100732,7 +100732,7 @@ var _default = FbIcon;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282764351
+      // 1602285330452
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -101333,7 +101333,7 @@ var pageQuery = "2595983757";
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761534
+      // 1602285327797
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -101863,7 +101863,7 @@ var pageQuery = "2243538723";
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1602282761540
+      // 1602285327803
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);

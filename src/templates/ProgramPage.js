@@ -2,9 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import PageHeader from '../components/PageHeader'
-import { Splide, SplideSlide } from '../../node_modules/@splidejs/react-splide';
-import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 // Export Template for use in CMS preview
 export const ProgramPageTemplate = ({
