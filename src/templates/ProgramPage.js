@@ -18,44 +18,12 @@ export const ProgramPageTemplate = ({
                                       smallDescription2
                                     }) => (
   <main className="ProgramPage">
-
-    <br />
-
-    <div className="marginContainer">
-      <Splide>
-        <SplideSlide>
-          <PageHeader
-            title={program1}
-            subtitle={smallDescription1}
-            backgroundImage={image1}
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <PageHeader
-            subtitle={description1}
-          />
-        </SplideSlide>
-      </Splide>
-
-      <br />
-
-      <Splide>
-        <SplideSlide>
-          <PageHeader
-            title={program2}
-            subtitle={smallDescription2}
-            backgroundImage={image2}
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <PageHeader
-            subtitle={description2}
-          />
-        </SplideSlide>
-      </Splide>
-    </div>
-
-    <br />
+      <h1>HELLO PROGRAM PAGE SUCKS BTW</h1>
+      <p>{program1}</p>
+      <p>{image1}</p>
+      <p>{description1}</p>
+      <p>{smallDescription1}</p>
+      <p>{program2}</p>
   </main>
 )
 

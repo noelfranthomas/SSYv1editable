@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "0e9e002f8da1b7fa7bcb";
+/******/ 	var hotCurrentHash = "9b09e86b367f477ade3c";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -904,7 +904,7 @@ module.exports = [{
     "background_color": "#3D7650",
     "theme_color": "#ffffda",
     "display": "standalone",
-    "icon": "/Users/noelthomas/Desktop/yellowcake/static/favicon.ico",
+    "icon": "/Users/noelthomas/Desktop/SSYv1 editable/static/favicon.ico",
     "cache_busting_mode": "query",
     "include_favicon": true,
     "legacy": true,
@@ -929,8 +929,8 @@ module.exports = [{
   plugin: __webpack_require__(/*! ../node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js */ "./node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js"),
   options: {
     "plugins": [],
-    "modulePath": "/Users/noelthomas/Desktop/yellowcake/src/cms/cms.js",
-    "stylesPath": "/Users/noelthomas/Desktop/yellowcake/src/cms/admin.css",
+    "modulePath": "/Users/noelthomas/Desktop/SSYv1 editable/src/cms/cms.js",
+    "stylesPath": "/Users/noelthomas/Desktop/SSYv1 editable/src/cms/admin.css",
     "enableIdentityWidget": true
   }
 }, {
@@ -1038,11 +1038,11 @@ exports.apiRunnerAsync = function (api, args, defaultReturn) {
     return;
   }
 
-  reactHotLoader.register(getResourcesForPathname, "getResourcesForPathname", "/Users/noelthomas/Desktop/yellowcake/.cache/api-runner-browser.js");
-  reactHotLoader.register(getResourcesForPathnameSync, "getResourcesForPathnameSync", "/Users/noelthomas/Desktop/yellowcake/.cache/api-runner-browser.js");
-  reactHotLoader.register(getResourceURLsForPathname, "getResourceURLsForPathname", "/Users/noelthomas/Desktop/yellowcake/.cache/api-runner-browser.js");
-  reactHotLoader.register(loadPage, "loadPage", "/Users/noelthomas/Desktop/yellowcake/.cache/api-runner-browser.js");
-  reactHotLoader.register(loadPageSync, "loadPageSync", "/Users/noelthomas/Desktop/yellowcake/.cache/api-runner-browser.js");
+  reactHotLoader.register(getResourcesForPathname, "getResourcesForPathname", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/api-runner-browser.js");
+  reactHotLoader.register(getResourcesForPathnameSync, "getResourcesForPathnameSync", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/api-runner-browser.js");
+  reactHotLoader.register(getResourceURLsForPathname, "getResourceURLsForPathname", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/api-runner-browser.js");
+  reactHotLoader.register(loadPage, "loadPage", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/api-runner-browser.js");
+  reactHotLoader.register(loadPageSync, "loadPageSync", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/api-runner-browser.js");
 })();
 
 ;
@@ -1127,8 +1127,8 @@ var _default = emitter;
     return;
   }
 
-  reactHotLoader.register(emitter, "emitter", "/Users/noelthomas/Desktop/yellowcake/.cache/emitter.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/.cache/emitter.js");
+  reactHotLoader.register(emitter, "emitter", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/emitter.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/emitter.js");
 })();
 
 ;
@@ -1251,12 +1251,12 @@ var reportError = function reportError(errorID, error) {
     return;
   }
 
-  reactHotLoader.register(ErrorOverlay, "ErrorOverlay", "/Users/noelthomas/Desktop/yellowcake/.cache/error-overlay-handler.js");
-  reactHotLoader.register(errorMap, "errorMap", "/Users/noelthomas/Desktop/yellowcake/.cache/error-overlay-handler.js");
-  reactHotLoader.register(flat, "flat", "/Users/noelthomas/Desktop/yellowcake/.cache/error-overlay-handler.js");
-  reactHotLoader.register(handleErrorOverlay, "handleErrorOverlay", "/Users/noelthomas/Desktop/yellowcake/.cache/error-overlay-handler.js");
-  reactHotLoader.register(clearError, "clearError", "/Users/noelthomas/Desktop/yellowcake/.cache/error-overlay-handler.js");
-  reactHotLoader.register(reportError, "reportError", "/Users/noelthomas/Desktop/yellowcake/.cache/error-overlay-handler.js");
+  reactHotLoader.register(ErrorOverlay, "ErrorOverlay", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/error-overlay-handler.js");
+  reactHotLoader.register(errorMap, "errorMap", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/error-overlay-handler.js");
+  reactHotLoader.register(flat, "flat", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/error-overlay-handler.js");
+  reactHotLoader.register(handleErrorOverlay, "handleErrorOverlay", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/error-overlay-handler.js");
+  reactHotLoader.register(clearError, "clearError", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/error-overlay-handler.js");
+  reactHotLoader.register(reportError, "reportError", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/error-overlay-handler.js");
 })();
 
 ;
@@ -1437,15 +1437,15 @@ var cleanPath = function cleanPath(rawPathname) {
     return;
   }
 
-  reactHotLoader.register(pathCache, "pathCache", "/Users/noelthomas/Desktop/yellowcake/.cache/find-path.js");
-  reactHotLoader.register(matchPaths, "matchPaths", "/Users/noelthomas/Desktop/yellowcake/.cache/find-path.js");
-  reactHotLoader.register(trimPathname, "trimPathname", "/Users/noelthomas/Desktop/yellowcake/.cache/find-path.js");
-  reactHotLoader.register(absolutify, "absolutify", "/Users/noelthomas/Desktop/yellowcake/.cache/find-path.js");
-  reactHotLoader.register(setMatchPaths, "setMatchPaths", "/Users/noelthomas/Desktop/yellowcake/.cache/find-path.js");
-  reactHotLoader.register(findMatchPath, "findMatchPath", "/Users/noelthomas/Desktop/yellowcake/.cache/find-path.js");
-  reactHotLoader.register(grabMatchParams, "grabMatchParams", "/Users/noelthomas/Desktop/yellowcake/.cache/find-path.js");
-  reactHotLoader.register(findPath, "findPath", "/Users/noelthomas/Desktop/yellowcake/.cache/find-path.js");
-  reactHotLoader.register(cleanPath, "cleanPath", "/Users/noelthomas/Desktop/yellowcake/.cache/find-path.js");
+  reactHotLoader.register(pathCache, "pathCache", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/find-path.js");
+  reactHotLoader.register(matchPaths, "matchPaths", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/find-path.js");
+  reactHotLoader.register(trimPathname, "trimPathname", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/find-path.js");
+  reactHotLoader.register(absolutify, "absolutify", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/find-path.js");
+  reactHotLoader.register(setMatchPaths, "setMatchPaths", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/find-path.js");
+  reactHotLoader.register(findMatchPath, "findMatchPath", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/find-path.js");
+  reactHotLoader.register(grabMatchParams, "grabMatchParams", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/find-path.js");
+  reactHotLoader.register(findPath, "findPath", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/find-path.js");
+  reactHotLoader.register(cleanPath, "cleanPath", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/find-path.js");
 })();
 
 ;
@@ -1502,7 +1502,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_page_renderer__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_page_renderer__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony reexport (default from non-harmony) */ __webpack_require__.d(__webpack_exports__, "PageRenderer", function() { return _public_page_renderer__WEBPACK_IMPORTED_MODULE_4___default.a; });
 /* harmony import */ var _loader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loader */ "./.cache/loader.js");
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/.cache/gatsby-browser-entry.js",
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/.cache/gatsby-browser-entry.js",
     _this = undefined;
 
 (function () {
@@ -1624,13 +1624,13 @@ function unstable_collectionGraphql() {
     return;
   }
 
-  reactHotLoader.register(prefetchPathname, "prefetchPathname", "/Users/noelthomas/Desktop/yellowcake/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQueryContext, "StaticQueryContext", "/Users/noelthomas/Desktop/yellowcake/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQueryDataRenderer, "StaticQueryDataRenderer", "/Users/noelthomas/Desktop/yellowcake/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQuery, "StaticQuery", "/Users/noelthomas/Desktop/yellowcake/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(useStaticQuery, "useStaticQuery", "/Users/noelthomas/Desktop/yellowcake/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(graphql, "graphql", "/Users/noelthomas/Desktop/yellowcake/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(unstable_collectionGraphql, "unstable_collectionGraphql", "/Users/noelthomas/Desktop/yellowcake/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(prefetchPathname, "prefetchPathname", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQueryContext, "StaticQueryContext", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQueryDataRenderer, "StaticQueryDataRenderer", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQuery, "StaticQuery", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(useStaticQuery, "useStaticQuery", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(graphql, "graphql", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(unstable_collectionGraphql, "unstable_collectionGraphql", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/gatsby-browser-entry.js");
 })();
 
 ;
@@ -2289,21 +2289,21 @@ function getStaticQueryResults() {
     return;
   }
 
-  reactHotLoader.register(PageResourceStatus, "PageResourceStatus", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(preferDefault, "preferDefault", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(stripSurroundingSlashes, "stripSurroundingSlashes", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(createPageDataUrl, "createPageDataUrl", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(doFetch, "doFetch", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(doesConnectionSupportPrefetch, "doesConnectionSupportPrefetch", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(toPageResources, "toPageResources", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(BaseLoader, "BaseLoader", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(createComponentUrls, "createComponentUrls", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(ProdLoader, "ProdLoader", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(instance, "instance", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(setLoader, "setLoader", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(publicLoader, "publicLoader", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(getStaticQueryResults, "getStaticQueryResults", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/.cache/loader.js");
+  reactHotLoader.register(PageResourceStatus, "PageResourceStatus", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(preferDefault, "preferDefault", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(stripSurroundingSlashes, "stripSurroundingSlashes", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(createPageDataUrl, "createPageDataUrl", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(doFetch, "doFetch", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(doesConnectionSupportPrefetch, "doesConnectionSupportPrefetch", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(toPageResources, "toPageResources", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(BaseLoader, "BaseLoader", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(createComponentUrls, "createComponentUrls", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(ProdLoader, "ProdLoader", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(instance, "instance", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(setLoader, "setLoader", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(publicLoader, "publicLoader", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(getStaticQueryResults, "getStaticQueryResults", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/loader.js");
 })();
 
 ;
@@ -2360,7 +2360,7 @@ var _default = function _default(path) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/.cache/normalize-page-path.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/normalize-page-path.js");
 })();
 
 ;
@@ -2471,8 +2471,8 @@ var _default = PageRenderer;
     return;
   }
 
-  reactHotLoader.register(PageRenderer, "PageRenderer", "/Users/noelthomas/Desktop/yellowcake/.cache/page-renderer.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/.cache/page-renderer.js");
+  reactHotLoader.register(PageRenderer, "PageRenderer", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/page-renderer.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/page-renderer.js");
 })();
 
 ;
@@ -2601,13 +2601,13 @@ var _default = prefetch;
     return;
   }
 
-  reactHotLoader.register(support, "support", "/Users/noelthomas/Desktop/yellowcake/.cache/prefetch.js");
-  reactHotLoader.register(linkPrefetchStrategy, "linkPrefetchStrategy", "/Users/noelthomas/Desktop/yellowcake/.cache/prefetch.js");
-  reactHotLoader.register(xhrPrefetchStrategy, "xhrPrefetchStrategy", "/Users/noelthomas/Desktop/yellowcake/.cache/prefetch.js");
-  reactHotLoader.register(supportedPrefetchStrategy, "supportedPrefetchStrategy", "/Users/noelthomas/Desktop/yellowcake/.cache/prefetch.js");
-  reactHotLoader.register(preFetched, "preFetched", "/Users/noelthomas/Desktop/yellowcake/.cache/prefetch.js");
-  reactHotLoader.register(prefetch, "prefetch", "/Users/noelthomas/Desktop/yellowcake/.cache/prefetch.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/.cache/prefetch.js");
+  reactHotLoader.register(support, "support", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/prefetch.js");
+  reactHotLoader.register(linkPrefetchStrategy, "linkPrefetchStrategy", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/prefetch.js");
+  reactHotLoader.register(xhrPrefetchStrategy, "xhrPrefetchStrategy", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/prefetch.js");
+  reactHotLoader.register(supportedPrefetchStrategy, "supportedPrefetchStrategy", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/prefetch.js");
+  reactHotLoader.register(preFetched, "preFetched", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/prefetch.js");
+  reactHotLoader.register(prefetch, "prefetch", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/prefetch.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/prefetch.js");
 })();
 
 ;
@@ -2674,8 +2674,8 @@ var _default = DevPageRenderer;
     return;
   }
 
-  reactHotLoader.register(DevPageRenderer, "DevPageRenderer", "/Users/noelthomas/Desktop/yellowcake/.cache/public-page-renderer-dev.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/.cache/public-page-renderer-dev.js");
+  reactHotLoader.register(DevPageRenderer, "DevPageRenderer", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/public-page-renderer-dev.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/public-page-renderer-dev.js");
 })();
 
 ;
@@ -2721,7 +2721,7 @@ if (true) {
     return;
   }
 
-  reactHotLoader.register(preferDefault, "preferDefault", "/Users/noelthomas/Desktop/yellowcake/.cache/public-page-renderer.js");
+  reactHotLoader.register(preferDefault, "preferDefault", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/public-page-renderer.js");
 })();
 
 ;
@@ -2753,7 +2753,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _page_renderer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page-renderer */ "./.cache/page-renderer.js");
 /* harmony import */ var _normalize_page_path__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./normalize-page-path */ "./.cache/normalize-page-path.js");
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/.cache/query-result-store.js";
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/.cache/query-result-store.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -2929,9 +2929,9 @@ var StaticQueryStore = /*#__PURE__*/function (_React$Component2) {
     return;
   }
 
-  reactHotLoader.register(getPathFromProps, "getPathFromProps", "/Users/noelthomas/Desktop/yellowcake/.cache/query-result-store.js");
-  reactHotLoader.register(PageQueryStore, "PageQueryStore", "/Users/noelthomas/Desktop/yellowcake/.cache/query-result-store.js");
-  reactHotLoader.register(StaticQueryStore, "StaticQueryStore", "/Users/noelthomas/Desktop/yellowcake/.cache/query-result-store.js");
+  reactHotLoader.register(getPathFromProps, "getPathFromProps", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/query-result-store.js");
+  reactHotLoader.register(PageQueryStore, "PageQueryStore", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/query-result-store.js");
+  reactHotLoader.register(StaticQueryStore, "StaticQueryStore", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/query-result-store.js");
 })();
 
 ;
@@ -3107,18 +3107,18 @@ function unregisterPath(path) {
     return;
   }
 
-  reactHotLoader.register(socket, "socket", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(staticQueryData, "staticQueryData", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(pageQueryData, "pageQueryData", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(isInitialized, "isInitialized", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(getStaticQueryData, "getStaticQueryData", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(getPageQueryData, "getPageQueryData", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(getIsInitialized, "getIsInitialized", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(socketIo, "socketIo", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(inFlightGetPageDataPromiseCache, "inFlightGetPageDataPromiseCache", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(getPageData, "getPageData", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(registerPath, "registerPath", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
-  reactHotLoader.register(unregisterPath, "unregisterPath", "/Users/noelthomas/Desktop/yellowcake/.cache/socketIo.js");
+  reactHotLoader.register(socket, "socket", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(staticQueryData, "staticQueryData", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(pageQueryData, "pageQueryData", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(isInitialized, "isInitialized", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(getStaticQueryData, "getStaticQueryData", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(getPageQueryData, "getPageQueryData", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(getIsInitialized, "getIsInitialized", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(socketIo, "socketIo", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(inFlightGetPageDataPromiseCache, "inFlightGetPageDataPromiseCache", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(getPageData, "getPageData", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(registerPath, "registerPath", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
+  reactHotLoader.register(unregisterPath, "unregisterPath", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/socketIo.js");
 })();
 
 ;
@@ -3182,7 +3182,7 @@ function stripPrefix(str, prefix) {
     return;
   }
 
-  reactHotLoader.register(stripPrefix, "stripPrefix", "/Users/noelthomas/Desktop/yellowcake/.cache/strip-prefix.js");
+  reactHotLoader.register(stripPrefix, "stripPrefix", "/Users/noelthomas/Desktop/SSYv1 editable/.cache/strip-prefix.js");
 })();
 
 ;
@@ -9312,42 +9312,42 @@ exports.default = _default;
     return;
   }
 
-  reactHotLoader.register(_assertThisInitialized2, "_assertThisInitialized2", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_inheritsLoose2, "_inheritsLoose2", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_objectWithoutPropertiesLoose2, "_objectWithoutPropertiesLoose2", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_extends2, "_extends2", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_react, "_react", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_propTypes, "_propTypes", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(logDeprecationNotice, "logDeprecationNotice", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(convertProps, "convertProps", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(hasArtDirectionSupport, "hasArtDirectionSupport", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(matchesMedia, "matchesMedia", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(getImageCacheKey, "getImageCacheKey", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(getCurrentSrcData, "getCurrentSrcData", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(imageCache, "imageCache", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(inImageCache, "inImageCache", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(activateCacheForImage, "activateCacheForImage", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(hasNativeLazyLoadSupport, "hasNativeLazyLoadSupport", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(isBrowser, "isBrowser", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(hasIOSupport, "hasIOSupport", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(io, "io", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(listeners, "listeners", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(getIO, "getIO", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateImageSources, "generateImageSources", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(groupByMedia, "groupByMedia", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateTracedSVGSources, "generateTracedSVGSources", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateBase64Sources, "generateBase64Sources", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateNoscriptSource, "generateNoscriptSource", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateNoscriptSources, "generateNoscriptSources", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(listenToIntersections, "listenToIntersections", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(noscriptImg, "noscriptImg", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(Placeholder, "Placeholder", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(Img, "Img", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(Image, "Image", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(fixedObject, "fixedObject", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(fluidObject, "fluidObject", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(requireFixedOrFluid, "requireFixedOrFluid", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_default, "_default", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_assertThisInitialized2, "_assertThisInitialized2", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_inheritsLoose2, "_inheritsLoose2", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_objectWithoutPropertiesLoose2, "_objectWithoutPropertiesLoose2", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_extends2, "_extends2", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_react, "_react", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_propTypes, "_propTypes", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(logDeprecationNotice, "logDeprecationNotice", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(convertProps, "convertProps", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(hasArtDirectionSupport, "hasArtDirectionSupport", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(matchesMedia, "matchesMedia", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(getImageCacheKey, "getImageCacheKey", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(getCurrentSrcData, "getCurrentSrcData", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(imageCache, "imageCache", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(inImageCache, "inImageCache", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(activateCacheForImage, "activateCacheForImage", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(hasNativeLazyLoadSupport, "hasNativeLazyLoadSupport", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(isBrowser, "isBrowser", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(hasIOSupport, "hasIOSupport", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(io, "io", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(listeners, "listeners", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(getIO, "getIO", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateImageSources, "generateImageSources", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(groupByMedia, "groupByMedia", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateTracedSVGSources, "generateTracedSVGSources", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateBase64Sources, "generateBase64Sources", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateNoscriptSource, "generateNoscriptSource", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateNoscriptSources, "generateNoscriptSources", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(listenToIntersections, "listenToIntersections", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(noscriptImg, "noscriptImg", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(Placeholder, "Placeholder", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(Img, "Img", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(Image, "Image", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(fixedObject, "fixedObject", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(fluidObject, "fluidObject", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(requireFixedOrFluid, "requireFixedOrFluid", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_default, "_default", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-image/index.js");
 })();
 
 ;
@@ -9812,8 +9812,8 @@ if (undefined) {
     return;
   }
 
-  reactHotLoader.register(_getManifestPathname, "_getManifestPathname", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-manifest/gatsby-browser.js");
-  reactHotLoader.register(withPrefix, "withPrefix", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-manifest/gatsby-browser.js");
+  reactHotLoader.register(_getManifestPathname, "_getManifestPathname", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-manifest/gatsby-browser.js");
+  reactHotLoader.register(withPrefix, "withPrefix", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-manifest/gatsby-browser.js");
 })();
 
 ;
@@ -9883,7 +9883,7 @@ exports.default = _default;
     return;
   }
 
-  reactHotLoader.register(_default, "_default", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-manifest/get-manifest-pathname.js");
+  reactHotLoader.register(_default, "_default", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-manifest/get-manifest-pathname.js");
 })();
 
 ;
@@ -9953,8 +9953,8 @@ setImmediate(function () {
     return;
   }
 
-  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
-  reactHotLoader.register(addLoginListener, "addLoginListener", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(addLoginListener, "addLoginListener", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
 })();
 
 ;
@@ -10025,8 +10025,8 @@ _netlifyCmsApp.default.registerPreviewStyle("cms.css");
     return;
   }
 
-  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/cms.js");
-  reactHotLoader.register(_emitter, "_emitter", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_emitter, "_emitter", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/cms.js");
 })();
 
 ;
@@ -10102,10 +10102,10 @@ exports.onInitialClientRender = function (_, _ref) {
     return;
   }
 
-  reactHotLoader.register(_interopRequireWildcard2, "_interopRequireWildcard2", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
-  reactHotLoader.register(routes, "routes", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
-  reactHotLoader.register(errorRoute, "errorRoute", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
-  reactHotLoader.register(accessTokenRoute, "accessTokenRoute", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
+  reactHotLoader.register(_interopRequireWildcard2, "_interopRequireWildcard2", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
+  reactHotLoader.register(routes, "routes", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
+  reactHotLoader.register(errorRoute, "errorRoute", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
+  reactHotLoader.register(accessTokenRoute, "accessTokenRoute", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
 })();
 
 ;
@@ -10189,12 +10189,12 @@ exports.onRouteUpdate = onRouteUpdate;
     return;
   }
 
-  reactHotLoader.register(_extends2, "_extends2", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
-  reactHotLoader.register(_nprogress, "_nprogress", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
-  reactHotLoader.register(defaultOptions, "defaultOptions", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
-  reactHotLoader.register(onClientEntry, "onClientEntry", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
-  reactHotLoader.register(onRouteUpdateDelayed, "onRouteUpdateDelayed", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
-  reactHotLoader.register(onRouteUpdate, "onRouteUpdate", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
+  reactHotLoader.register(_extends2, "_extends2", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
+  reactHotLoader.register(_nprogress, "_nprogress", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
+  reactHotLoader.register(defaultOptions, "defaultOptions", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
+  reactHotLoader.register(onClientEntry, "onClientEntry", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
+  reactHotLoader.register(onRouteUpdateDelayed, "onRouteUpdateDelayed", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
+  reactHotLoader.register(onRouteUpdate, "onRouteUpdate", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-nprogress/gatsby-browser.js");
 })();
 
 ;
@@ -10333,9 +10333,9 @@ exports.onPostPrefetchPathname = function (_ref3) {
     return;
   }
 
-  reactHotLoader.register(whiteListLinkRels, "whiteListLinkRels", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-offline/gatsby-browser.js");
-  reactHotLoader.register(prefetchedPathnames, "prefetchedPathnames", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-offline/gatsby-browser.js");
-  reactHotLoader.register(setPathResources, "setPathResources", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-offline/gatsby-browser.js");
+  reactHotLoader.register(whiteListLinkRels, "whiteListLinkRels", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-offline/gatsby-browser.js");
+  reactHotLoader.register(prefetchedPathnames, "prefetchedPathnames", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-offline/gatsby-browser.js");
+  reactHotLoader.register(setPathResources, "setPathResources", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-offline/gatsby-browser.js");
 })();
 
 ;
@@ -10831,10 +10831,10 @@ exports.onRouteUpdate = function (apiCallbackContext, pluginOptions) {
     return;
   }
 
-  reactHotLoader.register(DEFAULT_OPTIONS, "DEFAULT_OPTIONS", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-remark-images/gatsby-browser.js");
-  reactHotLoader.register(imageClass, "imageClass", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-remark-images/gatsby-browser.js");
-  reactHotLoader.register(imageBackgroundClass, "imageBackgroundClass", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-remark-images/gatsby-browser.js");
-  reactHotLoader.register(imageWrapperClass, "imageWrapperClass", "/Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-remark-images/gatsby-browser.js");
+  reactHotLoader.register(DEFAULT_OPTIONS, "DEFAULT_OPTIONS", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-remark-images/gatsby-browser.js");
+  reactHotLoader.register(imageClass, "imageClass", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-remark-images/gatsby-browser.js");
+  reactHotLoader.register(imageBackgroundClass, "imageBackgroundClass", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-remark-images/gatsby-browser.js");
+  reactHotLoader.register(imageWrapperClass, "imageWrapperClass", "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-remark-images/gatsby-browser.js");
 })();
 
 ;
@@ -31238,7 +31238,7 @@ function mitt(all                 ) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631155
+      // 1602282761573
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -43542,7 +43542,7 @@ module.exports = server_browser;
   })();
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/Users/noelthomas/Desktop/yellowcake/node_modules/react-dom/cjs/react-dom-server.browser.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/Users/noelthomas/Desktop/yellowcake/node_modules/react-dom/cjs/react-dom-server.browser.development.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/react-dom/cjs/react-dom-server.browser.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/react-dom/cjs/react-dom-server.browser.development.js"); } }(); 
 
 /***/ }),
 
@@ -43560,7 +43560,7 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-dom-server.browser.development.js */ "./node_modules/react-dom/cjs/react-dom-server.browser.development.js");
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/Users/noelthomas/Desktop/yellowcake/node_modules/react-dom/server.browser.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/Users/noelthomas/Desktop/yellowcake/node_modules/react-dom/server.browser.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/react-dom/server.browser.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/Users/noelthomas/Desktop/SSYv1 editable/node_modules/react-dom/server.browser.js"); } }(); 
 
 /***/ }),
 
@@ -77256,7 +77256,7 @@ exports.PhotoSwipeGallery = _PhotoSwipeGallery2.default;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593635059
+      // 1602282763885
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -96259,7 +96259,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var netlify_cms_media_library_uploadcare__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! netlify-cms-media-library-uploadcare */ "./node_modules/netlify-cms-media-library-uploadcare/dist/esm/index.js");
 /* harmony import */ var netlify_cms_media_library_uploadcare__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(netlify_cms_media_library_uploadcare__WEBPACK_IMPORTED_MODULE_9__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/cms/cms.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/cms/cms.js";
 
 var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
   return a;
@@ -96361,7 +96361,7 @@ netlify_cms_app__WEBPACK_IMPORTED_MODULE_1___default.a.registerPreviewTemplate('
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631125
+      // 1602282761556
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -96389,7 +96389,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Accordion_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Accordion.css */ "./src/components/Accordion.css");
 /* harmony import */ var _Accordion_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Accordion_css__WEBPACK_IMPORTED_MODULE_4__);
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Accordion.js";
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Accordion.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -96524,7 +96524,7 @@ Accordion.defaultProps = {
     return;
   }
 
-  reactHotLoader.register(Accordion, "Accordion", "/Users/noelthomas/Desktop/yellowcake/src/components/Accordion.js");
+  reactHotLoader.register(Accordion, "Accordion", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Accordion.js");
 })();
 
 ;
@@ -96546,7 +96546,7 @@ Accordion.defaultProps = {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631128
+      // 1602282761568
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -96573,7 +96573,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _BackgroundVideo_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./BackgroundVideo.css */ "./src/components/BackgroundVideo.css");
 /* harmony import */ var _BackgroundVideo_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_BackgroundVideo_css__WEBPACK_IMPORTED_MODULE_4__);
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/BackgroundVideo.js";
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/BackgroundVideo.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -96726,8 +96726,8 @@ var _default = BackgroundVideo;
     return;
   }
 
-  reactHotLoader.register(BackgroundVideo, "BackgroundVideo", "/Users/noelthomas/Desktop/yellowcake/src/components/BackgroundVideo.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/BackgroundVideo.js");
+  reactHotLoader.register(BackgroundVideo, "BackgroundVideo", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/BackgroundVideo.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/BackgroundVideo.js");
 })();
 
 ;
@@ -96756,7 +96756,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var qs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! qs */ "./node_modules/qs/lib/index.js");
 /* harmony import */ var qs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(qs__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/BlogSearch.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/BlogSearch.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -96815,7 +96815,7 @@ var _default = function _default(_ref) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/BlogSearch.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/BlogSearch.js");
 })();
 
 ;
@@ -96837,7 +96837,7 @@ var _default = function _default(_ref) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631098
+      // 1602282761543
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -96867,7 +96867,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Content_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Content.css */ "./src/components/Content.css");
 /* harmony import */ var _Content_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Content_css__WEBPACK_IMPORTED_MODULE_5__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Content.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Content.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -97020,12 +97020,12 @@ var _default = Content;
     return;
   }
 
-  reactHotLoader.register(encodeMarkdownURIs, "encodeMarkdownURIs", "/Users/noelthomas/Desktop/yellowcake/src/components/Content.js");
-  reactHotLoader.register(withContentImages, "withContentImages", "/Users/noelthomas/Desktop/yellowcake/src/components/Content.js");
-  reactHotLoader.register(MyImage, "MyImage", "/Users/noelthomas/Desktop/yellowcake/src/components/Content.js");
-  reactHotLoader.register(HtmlBlock, "HtmlBlock", "/Users/noelthomas/Desktop/yellowcake/src/components/Content.js");
-  reactHotLoader.register(Content, "Content", "/Users/noelthomas/Desktop/yellowcake/src/components/Content.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/Content.js");
+  reactHotLoader.register(encodeMarkdownURIs, "encodeMarkdownURIs", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Content.js");
+  reactHotLoader.register(withContentImages, "withContentImages", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Content.js");
+  reactHotLoader.register(MyImage, "MyImage", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Content.js");
+  reactHotLoader.register(HtmlBlock, "HtmlBlock", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Content.js");
+  reactHotLoader.register(Content, "Content", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Content.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Content.js");
 })();
 
 ;
@@ -97047,7 +97047,7 @@ var _default = Content;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631392
+      // 1602282761785
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -97074,7 +97074,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _email_icon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./email-icon */ "./src/components/email-icon.js");
 /* harmony import */ var _FooterLogo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FooterLogo */ "./src/components/FooterLogo.js");
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Footer.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Footer.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -97407,7 +97407,7 @@ var _default = function _default() {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/Footer.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Footer.js");
 })();
 
 ;
@@ -97434,7 +97434,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _footerLogo_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footerLogo.css */ "./src/components/footerLogo.css");
 /* harmony import */ var _footerLogo_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_footerLogo_css__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/FooterLogo.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/FooterLogo.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -97473,7 +97473,7 @@ var _default = function _default() {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/FooterLogo.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/FooterLogo.js");
 })();
 
 ;
@@ -97495,7 +97495,7 @@ var _default = function _default() {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631152
+      // 1602282761571
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -97524,7 +97524,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Form_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Form.css */ "./src/components/Form.css");
 /* harmony import */ var _Form_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Form_css__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/FormSimpleAjax.js";
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/FormSimpleAjax.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -97906,8 +97906,8 @@ var _default = Form;
     return;
   }
 
-  reactHotLoader.register(Form, "Form", "/Users/noelthomas/Desktop/yellowcake/src/components/FormSimpleAjax.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/FormSimpleAjax.js");
+  reactHotLoader.register(Form, "Form", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/FormSimpleAjax.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/FormSimpleAjax.js");
 })();
 
 ;
@@ -97929,7 +97929,7 @@ var _default = Form;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631137
+      // 1602282761558
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -97966,7 +97966,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_photoswipe_lib_photoswipe_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_photoswipe_lib_photoswipe_css__WEBPACK_IMPORTED_MODULE_8__);
 
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Gallery.js";
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Gallery.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -98154,8 +98154,8 @@ Gallery.propTypes = {
     return;
   }
 
-  reactHotLoader.register(query, "query", "/Users/noelthomas/Desktop/yellowcake/src/components/Gallery.js");
-  reactHotLoader.register(Gallery, "Gallery", "/Users/noelthomas/Desktop/yellowcake/src/components/Gallery.js");
+  reactHotLoader.register(query, "query", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Gallery.js");
+  reactHotLoader.register(Gallery, "Gallery", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Gallery.js");
 })();
 
 ;
@@ -98177,7 +98177,7 @@ Gallery.propTypes = {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631436
+      // 1602282761768
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -98200,7 +98200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _GithubCorner_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GithubCorner.css */ "./src/components/GithubCorner.css");
 /* harmony import */ var _GithubCorner_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_GithubCorner_css__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/GithubCorner.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/GithubCorner.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -98288,7 +98288,7 @@ var _default = function _default(_ref) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/GithubCorner.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/GithubCorner.js");
 })();
 
 ;
@@ -98310,7 +98310,7 @@ var _default = function _default(_ref) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631404
+      // 1602282761800
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -98337,7 +98337,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Image_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Image.css */ "./src/components/Image.css");
 /* harmony import */ var _Image_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Image_css__WEBPACK_IMPORTED_MODULE_4__);
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Image.js";
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Image.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -98550,8 +98550,8 @@ var _default = Image;
     return;
   }
 
-  reactHotLoader.register(Image, "Image", "/Users/noelthomas/Desktop/yellowcake/src/components/Image.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/Image.js");
+  reactHotLoader.register(Image, "Image", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Image.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Image.js");
 })();
 
 ;
@@ -98587,7 +98587,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _globalStyles_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./globalStyles.css */ "./src/components/globalStyles.css");
 /* harmony import */ var _globalStyles_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_globalStyles_css__WEBPACK_IMPORTED_MODULE_8__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Layout.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Layout.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -98721,7 +98721,7 @@ var _default = function _default(_ref) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/Layout.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Layout.js");
 })();
 
 ;
@@ -98743,7 +98743,7 @@ var _default = function _default(_ref) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593635886
+      // 1602282764370
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -98766,7 +98766,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Logo_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Logo.css */ "./src/components/Logo.css");
 /* harmony import */ var _Logo_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Logo_css__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Logo.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Logo.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -98805,7 +98805,7 @@ var _default = function _default() {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/Logo.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Logo.js");
 })();
 
 ;
@@ -98835,7 +98835,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/lib/Helmet.js");
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Meta.js";
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Meta.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -99078,8 +99078,8 @@ var Meta = /*#__PURE__*/function (_Component) {
     return;
   }
 
-  reactHotLoader.register(query, "query", "/Users/noelthomas/Desktop/yellowcake/src/components/Meta.js");
-  reactHotLoader.register(Meta, "Meta", "/Users/noelthomas/Desktop/yellowcake/src/components/Meta.js");
+  reactHotLoader.register(query, "query", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Meta.js");
+  reactHotLoader.register(Meta, "Meta", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Meta.js");
 })();
 
 ;
@@ -99101,7 +99101,7 @@ var Meta = /*#__PURE__*/function (_Component) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593632452
+      // 1602282762412
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -99133,7 +99133,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Nav.js",
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Nav.js",
     _this3 = undefined;
 
 (function () {
@@ -99384,8 +99384,8 @@ var _default = function _default(_ref2) {
     return;
   }
 
-  reactHotLoader.register(Navigation, "Navigation", "/Users/noelthomas/Desktop/yellowcake/src/components/Nav.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/Nav.js");
+  reactHotLoader.register(Navigation, "Navigation", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Nav.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Nav.js");
 })();
 
 ;
@@ -99498,7 +99498,7 @@ var Observer = /*#__PURE__*/function (_Component) {
     return;
   }
 
-  reactHotLoader.register(Observer, "Observer", "/Users/noelthomas/Desktop/yellowcake/src/components/Observer.js");
+  reactHotLoader.register(Observer, "Observer", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Observer.js");
 })();
 
 ;
@@ -99520,7 +99520,7 @@ var Observer = /*#__PURE__*/function (_Component) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631122
+      // 1602282761551
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -99547,7 +99547,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PageHeader_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PageHeader.css */ "./src/components/PageHeader.css");
 /* harmony import */ var _PageHeader_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_PageHeader_css__WEBPACK_IMPORTED_MODULE_4__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/PageHeader.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PageHeader.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -99635,8 +99635,8 @@ var _default = PageHeader;
     return;
   }
 
-  reactHotLoader.register(PageHeader, "PageHeader", "/Users/noelthomas/Desktop/yellowcake/src/components/PageHeader.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/PageHeader.js");
+  reactHotLoader.register(PageHeader, "PageHeader", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PageHeader.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PageHeader.js");
 })();
 
 ;
@@ -99658,7 +99658,7 @@ var _default = PageHeader;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631114
+      // 1602282761548
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -99685,7 +99685,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PictureLink_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PictureLink.css */ "./src/components/PictureLink.css");
 /* harmony import */ var _PictureLink_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_PictureLink_css__WEBPACK_IMPORTED_MODULE_4__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/PictureLink.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PictureLink.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -99783,8 +99783,8 @@ var _default = PictureLink;
     return;
   }
 
-  reactHotLoader.register(PictureLink, "PictureLink", "/Users/noelthomas/Desktop/yellowcake/src/components/PictureLink.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/PictureLink.js");
+  reactHotLoader.register(PictureLink, "PictureLink", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PictureLink.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PictureLink.js");
 })();
 
 ;
@@ -99806,7 +99806,7 @@ var _default = PictureLink;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631131
+      // 1602282761563
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -99831,7 +99831,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Popup_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Popup.css */ "./src/components/Popup.css");
 /* harmony import */ var _Popup_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Popup_css__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/Popup.js";
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Popup.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -99950,8 +99950,8 @@ var _default = Popup;
     return;
   }
 
-  reactHotLoader.register(Popup, "Popup", "/Users/noelthomas/Desktop/yellowcake/src/components/Popup.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/Popup.js");
+  reactHotLoader.register(Popup, "Popup", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Popup.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/Popup.js");
 })();
 
 ;
@@ -99973,7 +99973,7 @@ var _default = Popup;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593632397
+      // 1602282762373
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100001,7 +100001,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/PostCard.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PostCard.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -100103,8 +100103,8 @@ var _default = PostCard;
     return;
   }
 
-  reactHotLoader.register(PostCard, "PostCard", "/Users/noelthomas/Desktop/yellowcake/src/components/PostCard.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/PostCard.js");
+  reactHotLoader.register(PostCard, "PostCard", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PostCard.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PostCard.js");
 })();
 
 ;
@@ -100126,7 +100126,7 @@ var _default = PostCard;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631134
+      // 1602282761565
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100151,7 +100151,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PostCategoriesNav_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PostCategoriesNav.css */ "./src/components/PostCategoriesNav.css");
 /* harmony import */ var _PostCategoriesNav_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_PostCategoriesNav_css__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/PostCategoriesNav.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PostCategoriesNav.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -100222,8 +100222,8 @@ var _default = PostCategoriesNav;
     return;
   }
 
-  reactHotLoader.register(PostCategoriesNav, "PostCategoriesNav", "/Users/noelthomas/Desktop/yellowcake/src/components/PostCategoriesNav.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/PostCategoriesNav.js");
+  reactHotLoader.register(PostCategoriesNav, "PostCategoriesNav", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PostCategoriesNav.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PostCategoriesNav.js");
 })();
 
 ;
@@ -100245,7 +100245,7 @@ var _default = PostCategoriesNav;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631140
+      // 1602282761560
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100270,7 +100270,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PostSection_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PostSection.css */ "./src/components/PostSection.css");
 /* harmony import */ var _PostSection_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_PostSection_css__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/PostSection.js";
+var _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PostSection.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -100406,8 +100406,8 @@ var _default = PostSection;
     return;
   }
 
-  reactHotLoader.register(PostSection, "PostSection", "/Users/noelthomas/Desktop/yellowcake/src/components/PostSection.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/PostSection.js");
+  reactHotLoader.register(PostSection, "PostSection", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PostSection.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/PostSection.js");
 })();
 
 ;
@@ -100429,7 +100429,7 @@ var _default = PostSection;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631118
+      // 1602282761553
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100452,7 +100452,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SVGIcon_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SVGIcon.css */ "./src/components/SVGIcon.css");
 /* harmony import */ var _SVGIcon_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_SVGIcon_css__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/SVGIcon.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/SVGIcon.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -100502,7 +100502,7 @@ var _default = function _default(_ref) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/SVGIcon.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/SVGIcon.js");
 })();
 
 ;
@@ -100532,7 +100532,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icon_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icon.css */ "./src/components/icon.css");
 /* harmony import */ var _icon_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_icon_css__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/email-icon.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/email-icon.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -100587,8 +100587,8 @@ var _default = EmailIcon;
     return;
   }
 
-  reactHotLoader.register(EmailIcon, "EmailIcon", "/Users/noelthomas/Desktop/yellowcake/src/components/email-icon.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/email-icon.js");
+  reactHotLoader.register(EmailIcon, "EmailIcon", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/email-icon.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/email-icon.js");
 })();
 
 ;
@@ -100618,7 +100618,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icon_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icon.css */ "./src/components/icon.css");
 /* harmony import */ var _icon_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_icon_css__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/fb-icon.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/fb-icon.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -100673,8 +100673,8 @@ var _default = FbIcon;
     return;
   }
 
-  reactHotLoader.register(FbIcon, "FbIcon", "/Users/noelthomas/Desktop/yellowcake/src/components/fb-icon.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/fb-icon.js");
+  reactHotLoader.register(FbIcon, "FbIcon", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/fb-icon.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/fb-icon.js");
 })();
 
 ;
@@ -100696,7 +100696,7 @@ var _default = FbIcon;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593635870
+      // 1602282764362
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100714,7 +100714,7 @@ var _default = FbIcon;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631110
+      // 1602282761545
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100732,7 +100732,7 @@ var _default = FbIcon;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593635855
+      // 1602282764351
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -100758,7 +100758,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icon_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icon.css */ "./src/components/icon.css");
 /* harmony import */ var _icon_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_icon_css__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/components/ig-icon.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/components/ig-icon.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -100803,8 +100803,8 @@ var _default = IgIcon;
     return;
   }
 
-  reactHotLoader.register(IgIcon, "IgIcon", "/Users/noelthomas/Desktop/yellowcake/src/components/ig-icon.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/components/ig-icon.js");
+  reactHotLoader.register(IgIcon, "IgIcon", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/ig-icon.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/components/ig-icon.js");
 })();
 
 ;
@@ -100839,7 +100839,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_PostCategoriesNav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/PostCategoriesNav */ "./src/components/PostCategoriesNav.js");
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/templates/BlogIndex.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/BlogIndex.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -101023,12 +101023,12 @@ var pageQuery = "3121249010";
     return;
   }
 
-  reactHotLoader.register(byDate, "byDate", "/Users/noelthomas/Desktop/yellowcake/src/templates/BlogIndex.js");
-  reactHotLoader.register(byCategory, "byCategory", "/Users/noelthomas/Desktop/yellowcake/src/templates/BlogIndex.js");
-  reactHotLoader.register(BlogIndexTemplate, "BlogIndexTemplate", "/Users/noelthomas/Desktop/yellowcake/src/templates/BlogIndex.js");
-  reactHotLoader.register(BlogIndex, "BlogIndex", "/Users/noelthomas/Desktop/yellowcake/src/templates/BlogIndex.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/yellowcake/src/templates/BlogIndex.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/templates/BlogIndex.js");
+  reactHotLoader.register(byDate, "byDate", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/BlogIndex.js");
+  reactHotLoader.register(byCategory, "byCategory", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/BlogIndex.js");
+  reactHotLoader.register(BlogIndexTemplate, "BlogIndexTemplate", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/BlogIndex.js");
+  reactHotLoader.register(BlogIndex, "BlogIndex", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/BlogIndex.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/BlogIndex.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/BlogIndex.js");
 })();
 
 ;
@@ -101062,7 +101062,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Gallery__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Gallery */ "./src/components/Gallery.js");
 /* harmony import */ var _components_Popup__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Popup */ "./src/components/Popup.js");
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/templates/ComponentsPage.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ComponentsPage.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -101308,10 +101308,10 @@ var pageQuery = "2595983757";
     return;
   }
 
-  reactHotLoader.register(ComponentsPageTemplate, "ComponentsPageTemplate", "/Users/noelthomas/Desktop/yellowcake/src/templates/ComponentsPage.js");
-  reactHotLoader.register(ComponentsPage, "ComponentsPage", "/Users/noelthomas/Desktop/yellowcake/src/templates/ComponentsPage.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/yellowcake/src/templates/ComponentsPage.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/templates/ComponentsPage.js");
+  reactHotLoader.register(ComponentsPageTemplate, "ComponentsPageTemplate", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ComponentsPage.js");
+  reactHotLoader.register(ComponentsPage, "ComponentsPage", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ComponentsPage.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ComponentsPage.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ComponentsPage.js");
 })();
 
 ;
@@ -101333,7 +101333,7 @@ var pageQuery = "2595983757";
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631104
+      // 1602282761534
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -101362,7 +101362,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ContactPage_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ContactPage.css */ "./src/templates/ContactPage.css");
 /* harmony import */ var _ContactPage_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_ContactPage_css__WEBPACK_IMPORTED_MODULE_5__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/templates/ContactPage.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ContactPage.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -101544,10 +101544,10 @@ var pageQuery = "3160902286";
     return;
   }
 
-  reactHotLoader.register(ContactPageTemplate, "ContactPageTemplate", "/Users/noelthomas/Desktop/yellowcake/src/templates/ContactPage.js");
-  reactHotLoader.register(ContactPage, "ContactPage", "/Users/noelthomas/Desktop/yellowcake/src/templates/ContactPage.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/yellowcake/src/templates/ContactPage.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/templates/ContactPage.js");
+  reactHotLoader.register(ContactPageTemplate, "ContactPageTemplate", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ContactPage.js");
+  reactHotLoader.register(ContactPage, "ContactPage", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ContactPage.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ContactPage.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/ContactPage.js");
 })();
 
 ;
@@ -101578,7 +101578,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 /* harmony import */ var _components_SVGIcon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/SVGIcon */ "./src/components/SVGIcon.js");
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/templates/DefaultPage.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/DefaultPage.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -101687,10 +101687,10 @@ var pageQuery = "3981950751";
     return;
   }
 
-  reactHotLoader.register(DefaultPageTemplate, "DefaultPageTemplate", "/Users/noelthomas/Desktop/yellowcake/src/templates/DefaultPage.js");
-  reactHotLoader.register(DefaultPage, "DefaultPage", "/Users/noelthomas/Desktop/yellowcake/src/templates/DefaultPage.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/yellowcake/src/templates/DefaultPage.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/templates/DefaultPage.js");
+  reactHotLoader.register(DefaultPageTemplate, "DefaultPageTemplate", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/DefaultPage.js");
+  reactHotLoader.register(DefaultPage, "DefaultPage", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/DefaultPage.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/DefaultPage.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/DefaultPage.js");
 })();
 
 ;
@@ -101719,7 +101719,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_PictureLink__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/PictureLink */ "./src/components/PictureLink.js");
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/templates/HomePage.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/HomePage.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -101838,10 +101838,10 @@ var pageQuery = "2243538723";
     return;
   }
 
-  reactHotLoader.register(HomePageTemplate, "HomePageTemplate", "/Users/noelthomas/Desktop/yellowcake/src/templates/HomePage.js");
-  reactHotLoader.register(HomePage, "HomePage", "/Users/noelthomas/Desktop/yellowcake/src/templates/HomePage.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/yellowcake/src/templates/HomePage.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/templates/HomePage.js");
+  reactHotLoader.register(HomePageTemplate, "HomePageTemplate", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/HomePage.js");
+  reactHotLoader.register(HomePage, "HomePage", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/HomePage.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/HomePage.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/HomePage.js");
 })();
 
 ;
@@ -101863,7 +101863,7 @@ var pageQuery = "2243538723";
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1601593631107
+      // 1602282761540
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -101894,7 +101894,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SinglePost_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SinglePost.css */ "./src/templates/SinglePost.css");
 /* harmony import */ var _SinglePost_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_SinglePost_css__WEBPACK_IMPORTED_MODULE_6__);
 var _this = undefined,
-    _jsxFileName = "/Users/noelthomas/Desktop/yellowcake/src/templates/SinglePost.js";
+    _jsxFileName = "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/SinglePost.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -102107,10 +102107,10 @@ var pageQuery = "3322067518";
     return;
   }
 
-  reactHotLoader.register(SinglePostTemplate, "SinglePostTemplate", "/Users/noelthomas/Desktop/yellowcake/src/templates/SinglePost.js");
-  reactHotLoader.register(SinglePost, "SinglePost", "/Users/noelthomas/Desktop/yellowcake/src/templates/SinglePost.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/yellowcake/src/templates/SinglePost.js");
-  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/yellowcake/src/templates/SinglePost.js");
+  reactHotLoader.register(SinglePostTemplate, "SinglePostTemplate", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/SinglePost.js");
+  reactHotLoader.register(SinglePost, "SinglePost", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/SinglePost.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/SinglePost.js");
+  reactHotLoader.register(_default, "default", "/Users/noelthomas/Desktop/SSYv1 editable/src/templates/SinglePost.js");
 })();
 
 ;
@@ -102130,9 +102130,9 @@ var pageQuery = "3322067518";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
-__webpack_require__(/*! /Users/noelthomas/Desktop/yellowcake/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
-module.exports = __webpack_require__(/*! /Users/noelthomas/Desktop/yellowcake/src/cms/cms.js */"./src/cms/cms.js");
+__webpack_require__(/*! /Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
+__webpack_require__(/*! /Users/noelthomas/Desktop/SSYv1 editable/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+module.exports = __webpack_require__(/*! /Users/noelthomas/Desktop/SSYv1 editable/src/cms/cms.js */"./src/cms/cms.js");
 
 
 /***/ }),
