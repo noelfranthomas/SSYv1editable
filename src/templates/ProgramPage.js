@@ -22,29 +22,30 @@ export const ProgramPageTemplate = ({
               backgroundImage={image1}
           />
       </div>
-
-      <div className="marginContainer">
-          <br />
-          <h3>{smallDescription1}</h3>
-          <p>{description1}</p>
+      <br />
+      <div className="textcontainer">
+          <div className="marginContainer">
+              <h3>{smallDescription1}</h3>
+              <p>{description1}</p>
+          </div>
       </div>
 
       <br/>
 
-
-
-
-
       <div className="marginContainer">
           <PageHeader
               title={program2}
-              subtitle={smallDescription2}
               backgroundImage={image2}
           />
       </div>
-
       <br />
-
+      <div className="textcontainer">
+          <div className="marginContainer">
+              <h3>{smallDescription2}</h3>
+              <p>{description2}</p>
+          </div>
+      </div>
+      <br />
   </main>
 )
 
