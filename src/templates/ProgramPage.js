@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import PageHeader from "../components/PageHeader";
 
 // Export Template for use in CMS preview
 export const ProgramPageTemplate = ({
@@ -15,12 +16,13 @@ export const ProgramPageTemplate = ({
                                       smallDescription2
                                     }) => (
   <main className="ProgramPage">
-      <h1>HELLO PROGRAM PAGE SUCKS BTW</h1>
-      <p>{program1}</p>
-      <p>{image1}</p>
-      <p>{description1}</p>
-      <p>{smallDescription1}</p>
-      <p>{program2}</p>
+
+      <div className="marginContainer">
+          <PageHeader
+              backgroundImage={image1}
+          />
+      </div>
+
   </main>
 )
 
