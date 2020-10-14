@@ -115,8 +115,9 @@ class Form extends React.Component {
                 Type of Enquiry
               </option>
               <option>Need to know more</option>
-              <option>Found a bug</option>
+              <option>Want to join the cause</option>
               <option>Want to say hello</option>
+              <option>Other...</option>
             </select>
           </label>
           <label className="Form--Label">
@@ -139,7 +140,7 @@ class Form extends React.Component {
           </label>
           <div
             className="g-recaptcha"
-            data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
+            data-sitekey="6Leca9cZAAAAAM6FlnKEmEKvD1e5GOaLw-R4ObS7"
           />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
