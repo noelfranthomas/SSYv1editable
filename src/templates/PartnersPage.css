@@ -1,0 +1,38 @@
+.flexcontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexitem{
+    max-width: 600px;
+    padding: 0 5vw 0 0;
+}
+
+.header{
+    color: var(--primary);
+    padding: 0 0 0 10vw;
+    max-width: 800px;
+}
+
+.thankyou{
+    text-align: center;
+    color: white;
+    padding: 16px;
+    background-color: var(--primary);
+
+}
+
+@media (max-width: 1000px){
+    .flexitem{
+        padding: 0 0 0 15px;
+        max-width: 1000px;
+    }
+
+    .header{
+        color: var(--primary);
+        padding: 0 20vw 0 0;
+        max-width: 500px;
+    }
+}

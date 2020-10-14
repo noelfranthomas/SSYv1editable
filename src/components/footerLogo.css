@@ -1,0 +1,10 @@
+.footerLogo {
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 18rem;
+    width: 18rem;
+    align-items: center;
+    justify-content: center;
+}
