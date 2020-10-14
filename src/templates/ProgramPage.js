@@ -16,12 +16,34 @@ export const ProgramPageTemplate = ({
                                       smallDescription2
                                     }) => (
   <main className="ProgramPage">
-
       <div className="marginContainer">
           <PageHeader
+              title={program1}
               backgroundImage={image1}
           />
       </div>
+
+      <div className="marginContainer">
+          <br />
+          <h3>{smallDescription1}</h3>
+          <p>{description1}</p>
+      </div>
+
+      <br/>
+
+
+
+
+
+      <div className="marginContainer">
+          <PageHeader
+              title={program2}
+              subtitle={smallDescription2}
+              backgroundImage={image2}
+          />
+      </div>
+
+      <br />
 
   </main>
 )
