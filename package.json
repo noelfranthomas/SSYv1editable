@@ -8,7 +8,9 @@
     "url": "https://github.com/thriveweb/yellowcake"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.4.1",
     "@reach/router": "^1.2.1",
+    "@splidejs/react-splide": "^0.4.4",
     "bootstrap": "^4.5.2",
     "dom-form-serializer": "^1.0.7",
     "gatsby": "^2.17.7",

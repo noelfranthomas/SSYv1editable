@@ -5,7 +5,7 @@ slug: partners
 partnerName1: 1 on 1 Tutoring
 
 partnerDesc1: >-
-  Our priority is to ensure that we can McMan, Mustard Seed, USAY
+  McMan, Mustard Seed, USAY
 
 partnerImage1: https://ucarecdn.com/6a00645e-a07d-4c6c-8386-7e0f86bcff84/-/crop/1632x1853/0,596/-/preview/
 

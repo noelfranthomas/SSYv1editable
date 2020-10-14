@@ -1,15 +1,15 @@
 ---
 template: HomePage
 slug: ''
-Picturetitle: 'Bird'
-Picturesubtitle: 'Add News Article Here'
-PicturefeaturedImage: https://ucarecdn.com/f9ba7699-72cc-4462-97b8-fd04365e5af4/-/crop/2072x1768/0,0/-/preview/
-Picturelink: '/posts/bird/'
+Picturetitle: 'Bob'
+PicturefeaturedImage: 'https://ucarecdn.com/43614a0b-9a59-4a08-ad5c-428574b3a2c4/'
+Picturesubtitle: ' Add News Article Here'
+Picturelink: 'https://www.gatsbyjs.com/docs/adding-markdown-pages/'
 
-Picturetitle2: 'Red'
+Picturetitle2: 'Ross'
 Picturesubtitle2: 'Add another one here'
-PicturefeaturedImage2: 'https://ucarecdn.com/94633346-778b-4474-8039-b18280ec73a3/'
-Picturelink2: '/posts/red/'
+PicturefeaturedImage2: 'https://ucarecdn.com/bd5d1edc-73be-488a-9d50-8ec28f5ab6a9/'
+Picturelink2: 'https://stackoverflow.com/questions/10853881/how-to-remove-underline-from-a-link-in-html'
 
 meta:
   description: This is a meta description.

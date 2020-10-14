@@ -2,7 +2,9 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import PageHeader from "../components/PageHeader";
+import PageHeader from '../components/PageHeader'
+import { Splide, SplideSlide } from '../../node_modules/@splidejs/react-splide';
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 // Export Template for use in CMS preview
 export const ProgramPageTemplate = ({
@@ -16,36 +18,44 @@ export const ProgramPageTemplate = ({
                                       smallDescription2
                                     }) => (
   <main className="ProgramPage">
-      <div className="marginContainer">
-          <PageHeader
-              title={program1}
-              backgroundImage={image1}
-          />
-      </div>
-      <br />
-      <div className="textcontainer">
-          <div className="marginContainer">
-              <h3>{smallDescription1}</h3>
-              <p>{description1}</p>
-          </div>
-      </div>
 
-      <br/>
+    <br />
 
-      <div className="marginContainer">
+    <div className="marginContainer">
+      <Splide>
+        <SplideSlide>
           <PageHeader
-              title={program2}
-              backgroundImage={image2}
+            title={program1}
+            subtitle={smallDescription1}
+            backgroundImage={image1}
           />
-      </div>
+        </SplideSlide>
+        <SplideSlide>
+          <PageHeader
+            subtitle={description1}
+          />
+        </SplideSlide>
+      </Splide>
+
       <br />
-      <div className="textcontainer">
-          <div className="marginContainer">
-              <h3>{smallDescription2}</h3>
-              <p>{description2}</p>
-          </div>
-      </div>
-      <br />
+
+      <Splide>
+        <SplideSlide>
+          <PageHeader
+            title={program2}
+            subtitle={smallDescription2}
+            backgroundImage={image2}
+          />
+        </SplideSlide>
+        <SplideSlide>
+          <PageHeader
+            subtitle={description2}
+          />
+        </SplideSlide>
+      </Splide>
+    </div>
+
+    <br />
   </main>
 )
 
