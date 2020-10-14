@@ -36,8 +36,6 @@ export const byCategory = (posts, title, contentType) => {
 // Export Template for use in CMS preview
 export const BlogIndexTemplate = ({
   title,
-  subtitle,
-  featuredImage,
   posts = [],
   postCategories = [],
   enableSearch = true,
