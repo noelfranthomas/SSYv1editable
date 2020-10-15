@@ -23,6 +23,7 @@ export const PartnersPageTemplate = ({
       "Our heartfelt gratitude goes out to the following for their support"
     </h2>
 
+
     <div className="marginContainer">
       <PageHeader
         backgroundImage={partnerImage1}

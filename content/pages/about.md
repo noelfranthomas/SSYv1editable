@@ -2,7 +2,9 @@
 template: AboutPage
 slug: about
 
-featuredImage: https://ucarecdn.com/b89e588f-5659-47e9-9caa-6be0ad058572/-/crop/1690x1728/0,638/-/preview/
+title: Here's what we're all about.
+
+featuredImage: https://ucarecdn.com/370e0a02-3fea-4b97-ae36-11cdfd6dd8f2/ScreenShot20201015at21158PM.png
 
 missionStatement: >-
   Stars for Sheltered Youth (SSY) is a University of Calgary club that seeks to establish equal opportunities and extracurricular excellence for youth in shelters and foster homes. 
