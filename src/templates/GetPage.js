@@ -10,8 +10,10 @@ import Popup from '../components/Popup'
 export const GetPageTemplate = ({
                                       volunteer,
   volunteerLink,
+  volunteerImage,
   donate,
-  donateLink
+  donateLink,
+  donateImage
 
                                     }) => (
   <main className="GetPage">
@@ -21,7 +23,7 @@ export const GetPageTemplate = ({
         title="Volunteer"
         subtitle={volunteer}
         link={volunteerLink}
-        backgroundImage='https://ucarecdn.com/a7f36998-7a41-4a63-b0b1-91ef46cd638b/'
+        backgroundImage={volunteerImage}
       />
 
       <br />
@@ -30,7 +32,7 @@ export const GetPageTemplate = ({
         title="Donate"
         subtitle={donate}
         link={donateLink}
-        backgroundImage='https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
+        backgroundImage={donateImage}
       />
     </div>
 
@@ -57,8 +59,10 @@ export const pageQuery = graphql`
       frontmatter {
         volunteer
         volunteerLink
+        volunteerImage
         donate
         donateLink
+        donateImage
       }
     }
   }

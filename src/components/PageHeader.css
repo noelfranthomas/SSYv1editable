@@ -1,12 +1,12 @@
 .PageHeader {
-  background-color: black;
+  background-color: white;
   color: white;
   padding: 15rem 0 15rem 0;
   cursor: default;
 }
 
 .PageHeader .BackgroundImage {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .PageHeader-large {
