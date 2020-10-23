@@ -4,7 +4,7 @@ slug: ''
 Picturetitle: "October Event"
 Picturesubtitle: ''
 PicturefeaturedImage: https://ucarecdn.com/f9ba7699-72cc-4462-97b8-fd04365e5af4/-/crop/2072x1768/0,0/-/preview/
-Picturelink: '/posts/octoberevent/'
+Picturelink: '/posts/meet-great-and-games-night-october-30th/'
 
 Picturetitle2: 'Tutors wanted!'
 Picturesubtitle2: ''
