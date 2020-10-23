@@ -16,4 +16,4 @@ For the second half of the event, we will be splitting up in groups. Everyone wi
 
 All is welcome. You, as an SSY member (or not - YET), are encouraged to come, but feel free to invite your friends as well. There are no admission fees or membership fees. What does this mean for you? — FREE event to make long-lasting friendships.
 
-Click the link below to sign up!
+Click [here](https://docs.google.com/forms/d/e/1FAIpQLSdI4E4jHke6ycxfwScCTHpjN6tHl8oq1nf6TQVr9i1gIouONw/viewform) to sign up!
