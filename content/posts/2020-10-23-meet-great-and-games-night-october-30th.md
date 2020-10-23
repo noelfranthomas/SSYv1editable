@@ -3,7 +3,7 @@ template: SinglePost
 title: Meet & Great and Games Night! (October 30th)
 status: Published
 date: 2020-10-23
-featuredImage: https://ucarecdn.com/92800242-044d-4004-a15f-8bd45ed86a9a
+featuredImage: https://ucarecdn.com/a6126977-3734-4fc6-815d-457411b42b23/
 excerpt: October Event
 categories:
   - category: News
