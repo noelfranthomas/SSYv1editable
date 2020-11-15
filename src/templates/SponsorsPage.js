@@ -8,8 +8,10 @@ import PageHeader from "../components/PageHeader";
 export const SponsorsPageTemplate = ({
                                         sponsor1,
                                         image1,
+                                        desc1,
                                         sponsor2,
-                                        image2
+                                        image2,
+                                        desc2
                                     }) => (
     <main className="ProgramPage">
 
@@ -26,6 +28,7 @@ export const SponsorsPageTemplate = ({
         <div className="textcontainer">
             <div className="marginContainer">
                 <h3>{sponsor1}</h3>
+                <p>{desc1}</p>
             </div>
         </div>
 
@@ -40,6 +43,7 @@ export const SponsorsPageTemplate = ({
         <div className="textcontainer">
             <div className="marginContainer">
                 <h3>{sponsor2}</h3>
+                <p>{desc2}</p>
             </div>
         </div>
 
@@ -65,8 +69,10 @@ export const pageQuery = graphql`
       frontmatter {
       sponsor1
       image1
+      desc1
       sponsor2
       image2
+      desc2
       }
     }
   }
