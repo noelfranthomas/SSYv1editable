@@ -64,8 +64,8 @@ export default () => (
         <div className="container taCenter">
           <div className="footerPadding">
             <span>
-          © Stars for Sheltered Youth {new Date().getFullYear()} All rights reserved. Built by{' '}
-              <a href="https://github.com/noelfranthomas">noelfranthomas</a>.
+          © Stars for Sheltered Youth {new Date().getFullYear()} All rights reserved.{' '}
+              <a href="https://github.com/noelfranthomas">Developer</a>.
           </span>
           </div>
         </div>
