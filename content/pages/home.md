@@ -4,7 +4,7 @@ slug: ''
 Picturetitle: "Purpose is rooted in Passion: Join the Cause"
 Picturesubtitle: ''
 PicturefeaturedImage: https://ucarecdn.com/3bbbb028-f9af-4f46-87bd-8eea0c19900a/
-Picturelink: '/posts/meet-great-and-games-night-october-30th/'
+Picturelink: '/posts/purpose-is-rooted-in-passion-join-the-cause/'
 
 Picturetitle2: 'Tutors wanted!'
 Picturesubtitle2: ''
