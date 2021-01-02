@@ -3,6 +3,7 @@ template: SinglePost
 title: "Purpose is rooted in Passion: Join the Cause"
 status: Published
 date: 2021-01-01
+featuredImage: https://ucarecdn.com/67296575-0e71-4b55-bcd2-6abb52b9ec26/
 excerpt: An interview with one of our first mentors.
 ---
 The seed was planted in Winter 2019. Stars for Sheltered Youth sprouted from the hopeful minds of a group of University of Calgary students. They wanted to make a difference and bridge the gap between underprivileged youths and their right to an education. Over the past few months, the team has expanded from five members to over 176 volunteers (and counting!). Focusing on youths is the most important aspect of the organization as they provide tutoring and mentorship opportunities for underserved youths in the community and wellness events for the wellbeing of the volunteers.
