@@ -24,8 +24,6 @@ In terms of the SSY, Nikhil believes that tutors and mentors learn as much as th
 
 “It gave me an opportunity to look at things in a different way. Tutoring helped me find new ways to find a solution and taught me to slow down and take time to solve a problem.”
 
-![SSY, with hopeful hearts.](https://ucarecdn.com/ccd0295b-421f-4734-b881-a2cef911592e/-/crop/1045x678/0,230/-/preview/ "Stars for Sheltered Youth")
-
 With so many volunteers signing up and organizations partnering with the SSY, Nikhil encourages his peers to join and gain experience, leadership skills, personal growth, and other skills that “can help them in the rest of their life whether dynamically or in a job.” True to Nikhil’s words, this is a “different experience” that offers more than just tutoring.
 
 ![SSY, with hopeful hearts.](https://ucarecdn.com/4403fd67-f64a-4cc0-be89-16c8d4c5081e/ "Stars for Sheltered Youth")
