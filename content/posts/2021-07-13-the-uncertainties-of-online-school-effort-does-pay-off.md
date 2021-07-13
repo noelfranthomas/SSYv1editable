@@ -31,7 +31,7 @@ So while having teaching experience helps, Danielle does not believe it is neces
 
 Finally, Danielle wants to remind tutors not to underestimate their own abilities. “Be patient and hope that your efforts pay off, and they eventually do.”
 
-*\*mention of the partner's name is replaced with* \[my partner] *to protect their identity.*
+*\*mention of the partner's name is replaced with* \[my partner] *to protect their privacy.*
 
 ![](https://ucarecdn.com/31c3c109-272a-4d5e-9583-0d4cbbae7d61/)
 
