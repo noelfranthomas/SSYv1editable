@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Welcome to Stars for Sheltered Youth!
+title: Welcome to Stars for Sheltered Youth
 status: Published
 date: 2020-10-16
 featuredImage: https://ucarecdn.com/511ae196-7444-4182-86be-b1c177f7b3fa/
